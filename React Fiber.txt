@@ -1,0 +1,27 @@
+Q1- what is reconciliation?
+Ans:-
+    In React Native, reconciliation is the process React uses to efficiently update the user interface (UI) on the screen to match changes in component state or props .
+
+Q2- what is Diffing ?
+Ans:- 
+    Diffing: The new virtual tree is compared with the previous version using React's diffing algorithm. This algorithm identifies exactly what has changed, added, or been removed in the UI tree.
+
+
+Q3- What is Virtual DOM/Tree?
+Ans:- 
+
+    Virtual DOM/Tree: The in-memory, lightweight representation of the UI.
+    Manipulating this virtual representation is much faster than directly manipulating the actual native views.
+
+Q4- what is Keys?
+Ans:-
+
+    Keys: When rendering lists of elements, using a stable, unique key prop for each item is crucial. 
+    This helps React identify which specific items have changed, been added, or removed, allowing it to efficiently reuse existing native views and preserve component state across re-renders, rather than destroying and recreating the entire list.
+
+
+Q5- What is React Fiber?
+Ans:- 
+
+    React Fiber: Modern React (including current React Native versions) uses the Fiber architecture, a re-implementation of the core reconciliation algorithm.
+     Fiber allows the update work to be broken into chunks, paused, and resumed, which improves responsiveness and enables features like concurrent rendering. 

@@ -1,3 +1,21 @@
 explain old vs new ARCHITECTURE of reactnavtive step by step
 
 https://chatgpt.com/share/6944e238-f028-8004-9dc9-1f2c90425b28
+
+new ARCHITECTURE / FCM ( Deep linking )
+
+https://chatgpt.com/share/694241e6-b2d4-8004-b5d3-edaf5ede30e7
+
+
+
+
+cover everything architecture 
+
+https://chatgpt.com/share/695f7cea-3bec-8004-b9f0-768a5cee4737
+
+
+
+Q1:- ReactJS Reconciliation
+
+Reconciliation is the process React uses to figure out how to efficiently update the DOM (Document Object Model) when changes occur in the UI. React's goal is to update the page as efficiently as possible,
+ without unnecessary re-rendering or slow performance.
